@@ -1,0 +1,33 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#items {
+  display: block;
+}
+
+.icon {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  #items {
+    display: none;
+  }
+  .icon {
+    display: block;
+    background-color: none;
+    border: none;
+    outline: none;
+  }
+}
